@@ -1,4 +1,6 @@
 Railsgirls::Application.routes.draw do
+  resources :comments
+
   get "pages/info"
   get "pages/resume"
   # root to: redirect('/ideas')
